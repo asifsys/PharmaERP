@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "2MQxAebTibI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MrGenius\\Downloads\\PharmaERP\\src\\Services\\Dashboard\\PharmaERP.Dashboard.API\\PharmaERP.Dashboard.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.healthchecks\\2.2.0\\microsoft.aspnetcore.diagnostics.healthchecks.2.2.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\10.11.0\\microsoft.extensions.ambientmetadata.application.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\10.11.0\\microsoft.extensions.compliance.abstractions.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.dependencyinjection.autoactivation\\10.11.0\\microsoft.extensions.dependencyinjection.autoactivation.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.diagnostics.exceptionsummarization\\10.11.0\\microsoft.extensions.diagnostics.exceptionsummarization.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.http.diagnostics\\10.11.0\\microsoft.extensions.http.diagnostics.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.http.resilience\\10.11.0\\microsoft.extensions.http.resilience.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.resilience\\10.11.0\\microsoft.extensions.resilience.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.telemetry\\10.11.0\\microsoft.extensions.telemetry.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.extensions.telemetry.abstractions\\10.11.0\\microsoft.extensions.telemetry.abstractions.10.11.0.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry\\1.20.1\\opentelemetry.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.api\\1.20.1\\opentelemetry.api.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.20.1\\opentelemetry.api.providerbuilderextensions.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.20.1\\opentelemetry.exporter.opentelemetryprotocol.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.20.1\\opentelemetry.extensions.hosting.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.20.1\\opentelemetry.instrumentation.aspnetcore.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.instrumentation.http\\1.20.1\\opentelemetry.instrumentation.http.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\polly.core\\8.4.2\\polly.core.8.4.2.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\polly.extensions\\8.4.2\\polly.extensions.8.4.2.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\polly.ratelimiting\\8.4.2\\polly.ratelimiting.8.4.2.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.3.1\\swashbuckle.aspnetcore.swaggerui.10.3.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Diagnostics.HealthChecks will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.",
+      "projectPath": "C:\\Users\\MrGenius\\Downloads\\PharmaERP\\src\\Services\\Dashboard\\PharmaERP.Dashboard.API\\PharmaERP.Dashboard.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\MrGenius\\Downloads\\PharmaERP\\src\\Services\\Dashboard\\PharmaERP.Dashboard.API\\PharmaERP.Dashboard.API.csproj",
+      "libraryId": "Microsoft.AspNetCore.Diagnostics.HealthChecks",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

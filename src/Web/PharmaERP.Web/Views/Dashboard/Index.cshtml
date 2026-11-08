@@ -1,0 +1,169 @@
+﻿@model PharmaERP.Web.Models.DashboardSummaryViewModel
+
+@{
+    ViewData["Title"] = "Executive Dashboard";
+}
+
+<div class="dashboard-heading">
+
+    <div>
+        <h3>Executive Dashboard</h3>
+        <p>Monitor all ERP departments and services.</p>
+    </div>
+
+    <button id="refreshDashboard"
+            class="btn btn-primary">
+        ↻ Refresh
+    </button>
+
+</div>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-warning">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<!-- FOUR EXECUTIVE KPI TILES -->
+
+<div class="row g-3 mb-4">
+
+    <div class="col-xl-3 col-md-6">
+        <div class="kpi-card">
+            <span class="kpi-label">Total Services</span>
+            <h2 id="totalServices">@Model.TotalServices</h2>
+            <span>Registered services</span>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="kpi-card healthy">
+            <span class="kpi-label">Healthy Services</span>
+            <h2 id="healthyServices">@Model.HealthyServices</h2>
+            <span>Operational</span>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="kpi-card degraded">
+            <span class="kpi-label">Degraded Services</span>
+            <h2 id="degradedServices">@Model.DegradedServices</h2>
+            <span>Needs attention</span>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="kpi-card offline">
+            <span class="kpi-label">Offline Services</span>
+            <h2 id="offlineServices">@Model.OfflineServices</h2>
+            <span>Action required</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- SERVICE MONITORING -->
+
+<div class="card border-0 shadow-sm">
+
+    <div class="card-header bg-white py-3">
+
+        <div class="d-flex justify-content-between align-items-center">
+
+            <div>
+                <h5 class="mb-1">Department Service Monitoring</h5>
+
+                <small class="text-secondary">
+                    Live API health and performance monitoring
+                </small>
+            </div>
+
+            <span id="lastUpdated"
+                  class="text-secondary small">
+                Loading...
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="card-body">
+
+        <!-- FILTERS -->
+
+        <div class="row g-3 mb-3">
+
+            <div class="col-md-4">
+                <label class="form-label">Search Service</label>
+
+                <input type="text"
+                       id="serviceSearch"
+                       class="form-control"
+                       placeholder="Search service or department..." />
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label">Department</label>
+
+                <select id="departmentFilter"
+                        class="form-select">
+
+                    <option value="">All Departments</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label class="form-label">Status</label>
+
+                <select id="statusFilter"
+                        class="form-select">
+
+                    <option value="">All Status</option>
+                    <option value="Healthy">Healthy</option>
+                    <option value="Degraded">Degraded</option>
+                    <option value="Offline">Offline</option>
+                </select>
+            </div>
+
+            <div class="col-md-2 d-flex align-items-end">
+
+                <button id="clearFilters"
+                        class="btn btn-outline-secondary w-100">
+                    Clear Filters
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- DYNAMIC GRID -->
+
+        <div class="table-responsive">
+
+            <table id="serviceTable"
+                   class="table table-hover align-middle w-100">
+
+                <thead class="table-light">
+
+                    <tr>
+                        <th>Service Name</th>
+                        <th>Department</th>
+                        <th>Status</th>
+                        <th>Response Time</th>
+                        <th>CPU Usage</th>
+                        <th>Memory</th>
+                        <th>Last Checked</th>
+                    </tr>
+
+                </thead>
+
+                <tbody></tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

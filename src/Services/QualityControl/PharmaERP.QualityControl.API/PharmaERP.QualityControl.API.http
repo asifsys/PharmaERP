@@ -1,0 +1,6 @@
+@PharmaERP.QualityControl.API_HostAddress = http://localhost:5140
+
+GET {{PharmaERP.QualityControl.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

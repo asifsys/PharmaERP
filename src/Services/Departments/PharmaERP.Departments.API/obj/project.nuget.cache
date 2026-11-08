@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "uGrNSJXuC80=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MrGenius\\Downloads\\PharmaERP\\src\\Services\\Departments\\PharmaERP.Departments.API\\PharmaERP.Departments.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry\\1.20.1\\opentelemetry.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.api\\1.20.1\\opentelemetry.api.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.20.1\\opentelemetry.api.providerbuilderextensions.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.exporter.opentelemetryprotocol\\1.20.1\\opentelemetry.exporter.opentelemetryprotocol.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.extensions.hosting\\1.20.1\\opentelemetry.extensions.hosting.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.instrumentation.aspnetcore\\1.20.1\\opentelemetry.instrumentation.aspnetcore.1.20.1.nupkg.sha512",
+    "C:\\Users\\MrGenius\\.nuget\\packages\\opentelemetry.instrumentation.http\\1.20.1\\opentelemetry.instrumentation.http.1.20.1.nupkg.sha512"
+  ],
+  "logs": []
+}

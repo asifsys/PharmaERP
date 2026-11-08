@@ -1,0 +1,6 @@
+@PharmaERP.Notification.API_HostAddress = http://localhost:5177
+
+GET {{PharmaERP.Notification.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

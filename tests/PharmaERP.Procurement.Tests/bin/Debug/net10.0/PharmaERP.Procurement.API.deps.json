@@ -1,0 +1,202 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PharmaERP.Procurement.API/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": "10.0.14",
+          "PharmaERP.Observability": "1.0.0"
+        },
+        "runtime": {
+          "PharmaERP.Procurement.API.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/10.0.14": {
+        "dependencies": {
+          "Microsoft.OpenApi": "2.12.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "10.0.14.0",
+            "fileVersion": "10.0.1426.52326"
+          }
+        }
+      },
+      "Microsoft.OpenApi/2.12.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "2.12.2.0",
+            "fileVersion": "2.12.2.0"
+          }
+        }
+      },
+      "OpenTelemetry/1.20.1": {
+        "dependencies": {
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.20.1"
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.2236"
+          }
+        }
+      },
+      "OpenTelemetry.Api/1.20.1": {
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.2236"
+          }
+        }
+      },
+      "OpenTelemetry.Api.ProviderBuilderExtensions/1.20.1": {
+        "dependencies": {
+          "OpenTelemetry.Api": "1.20.1"
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Api.ProviderBuilderExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.2236"
+          }
+        }
+      },
+      "OpenTelemetry.Exporter.OpenTelemetryProtocol/1.20.1": {
+        "dependencies": {
+          "OpenTelemetry": "1.20.1"
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Exporter.OpenTelemetryProtocol.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.2236"
+          }
+        }
+      },
+      "OpenTelemetry.Extensions.Hosting/1.20.1": {
+        "dependencies": {
+          "OpenTelemetry": "1.20.1"
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Extensions.Hosting.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.20.1.2236"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.AspNetCore/1.20.1": {
+        "dependencies": {
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.20.1"
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Instrumentation.AspNetCore.dll": {
+            "assemblyVersion": "1.20.1.1505",
+            "fileVersion": "1.20.1.1505"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.Http/1.20.1": {
+        "dependencies": {
+          "OpenTelemetry.Api.ProviderBuilderExtensions": "1.20.1"
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Instrumentation.Http.dll": {
+            "assemblyVersion": "1.20.1.1498",
+            "fileVersion": "1.20.1.1498"
+          }
+        }
+      },
+      "PharmaERP.Observability/1.0.0": {
+        "dependencies": {
+          "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.20.1",
+          "OpenTelemetry.Extensions.Hosting": "1.20.1",
+          "OpenTelemetry.Instrumentation.AspNetCore": "1.20.1",
+          "OpenTelemetry.Instrumentation.Http": "1.20.1"
+        },
+        "runtime": {
+          "PharmaERP.Observability.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PharmaERP.Procurement.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3M6yO4nv8fmvM/1X7DqQcMxw/ptNLBcUzZt19SBEyfZF32gqZuwoPNnYd1xlDnFvQOGOkZDncf7p9E24blcTkQ==",
+      "path": "microsoft.aspnetcore.openapi/10.0.14",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/2.12.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZkT7qiJe0Kj0+DTZOZo+xrDy1kNmdsWFQVPIQLNx9ZJ0T9cB2LG7r+Bi60so8/+yg1nkS7QCPadrzsTG4VPKrA==",
+      "path": "microsoft.openapi/2.12.2",
+      "hashPath": "microsoft.openapi.2.12.2.nupkg.sha512"
+    },
+    "OpenTelemetry/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+XDw3fYbiv1a40aFnDJSQleeuUJciXuhoIA19XmcGhT47Hy/xZRqk8NCjHUDKrg72Ixjthicecp8ygBDNeH/Jw==",
+      "path": "opentelemetry/1.20.1",
+      "hashPath": "opentelemetry.1.20.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Api/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QO9hlwadOdJGR4vDpJyDnl9B62v7epIBSTIHUA4C+bCtrRaB4TWmYSnu3QVOIe7caH8dt7NaHRei6zebESJJyw==",
+      "path": "opentelemetry.api/1.20.1",
+      "hashPath": "opentelemetry.api.1.20.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Api.ProviderBuilderExtensions/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eDzDY/jTBqRytkYECmVKF7ZP5sKmCIqv1SSnA5BSWltIIvc3931TOMRyCW1qCGNIgmtldtJhISnsmFNxOCfauQ==",
+      "path": "opentelemetry.api.providerbuilderextensions/1.20.1",
+      "hashPath": "opentelemetry.api.providerbuilderextensions.1.20.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Exporter.OpenTelemetryProtocol/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IlO8F0Y01ki0N5hJaeFJ5j3MVYJdbyNpDF9g7goU8wA3o8r/+ir9WJNnmte7QlUzM3iSV/aIuev1fqwF1CZOqg==",
+      "path": "opentelemetry.exporter.opentelemetryprotocol/1.20.1",
+      "hashPath": "opentelemetry.exporter.opentelemetryprotocol.1.20.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Extensions.Hosting/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wnoK07COxyQBR47QwP80SIO4cpD2xeF4PrBDYFXDMnhDLmOP4nN0Szy1wCBLo5UABU1I4xwWRGzZM0bFdCbRog==",
+      "path": "opentelemetry.extensions.hosting/1.20.1",
+      "hashPath": "opentelemetry.extensions.hosting.1.20.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Instrumentation.AspNetCore/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pDO+Ed5iblMTvSVGcXzoLp8q20XHhXmK0wD/H3PGNHwDFlwZpV+bDWd/Euo6hNB4E0ruqzTFD76Btm+m0uCYNw==",
+      "path": "opentelemetry.instrumentation.aspnetcore/1.20.1",
+      "hashPath": "opentelemetry.instrumentation.aspnetcore.1.20.1.nupkg.sha512"
+    },
+    "OpenTelemetry.Instrumentation.Http/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XJTM6imVztxLraOrzsdlZf5shdH9TVeEWNBxpyepB5e3Gy+KNeQf2hyic398210UxqlPtt4iOkBELtjfIFTzug==",
+      "path": "opentelemetry.instrumentation.http/1.20.1",
+      "hashPath": "opentelemetry.instrumentation.http.1.20.1.nupkg.sha512"
+    },
+    "PharmaERP.Observability/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

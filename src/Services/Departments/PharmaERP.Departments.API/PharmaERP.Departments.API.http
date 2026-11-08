@@ -1,0 +1,6 @@
+@PharmaERP.Departments.API_HostAddress = http://localhost:5024
+
+GET {{PharmaERP.Departments.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

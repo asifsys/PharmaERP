@@ -1,0 +1,75 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/PharmaERP.Observability/PharmaERP.Observability.csproj" />
+    <Project Path="src/BuildingBlocks/PharmaERP.Shared/PharmaERP.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/Gateway/">
+    <Project Path="src/Gateway/PharmaERP.Gateway/PharmaERP.Gateway.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Dashboard/">
+    <Project Path="src/Services/Dashboard/PharmaERP.Dashboard.API/PharmaERP.Dashboard.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Departments/">
+    <Project Path="src/Services/Departments/PharmaERP.Departments.API/PharmaERP.Departments.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Finance/">
+    <Project Path="src/Services/Finance/PharmaERP.Finance.API/PharmaERP.Finance.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Identity/">
+    <Project Path="src/Services/Identity/PharmaERP.Identity.API/PharmaERP.Identity.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Manufacturing/">
+    <Project Path="src/Services/Manufacturing/PharmaERP.Manufacturing.API/PharmaERP.Manufacturing.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Notification/">
+    <Project Path="src/Services/Notification/PharmaERP.Notification.API/PharmaERP.Notification.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Order/">
+    <Project Path="src/Services/Order/PharmaERP.Order.API/PharmaERP.Order.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Payment/">
+    <Project Path="src/Services/Payment/PharmaERP.Payment.API/PharmaERP.Payment.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Procurement/">
+    <Project Path="src/Services/Procurement/PharmaERP.Procurement.API/PharmaERP.Procurement.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Product/">
+    <Project Path="src/Services/Product/PharmaERP.Product.API/PharmaERP.Product.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/QualityAssurance/">
+    <Project Path="src/Services/QualityAssurance/PharmaERP.QualityAssurance.API/PharmaERP.QualityAssurance.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/QualityControl/">
+    <Project Path="src/Services/QualityControl/PharmaERP.QualityControl.API/PharmaERP.QualityControl.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Reports/">
+    <Project Path="src/Services/Reports/PharmaERP.Reports.API/PharmaERP.Reports.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Salary/">
+    <Project Path="src/Services/Salary/PharmaERP.Salary.API/PharmaERP.Salary.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Store/">
+    <Project Path="src/Services/Store/PharmaERP.Store.API/PharmaERP.Store.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Web/">
+    <Project Path="src/Web/PharmaERP.Web/PharmaERP.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PharmaERP.Dashboard.Tests/PharmaERP.Dashboard.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Departments.Tests/PharmaERP.Departments.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Finance.Tests/PharmaERP.Finance.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Manufacturing.Tests/PharmaERP.Manufacturing.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Notification.Tests/PharmaERP.Notification.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Order.Tests/PharmaERP.Order.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Payment.Tests/PharmaERP.Payment.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Procurement.Tests/PharmaERP.Procurement.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Product.Tests/PharmaERP.Product.Tests.csproj" />
+    <Project Path="tests/PharmaERP.QualityAssurance.Tests/PharmaERP.QualityAssurance.Tests.csproj" />
+    <Project Path="tests/PharmaERP.QualityControl.Tests/PharmaERP.QualityControl.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Reports.Tests/PharmaERP.Reports.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Salary.Tests/PharmaERP.Salary.Tests.csproj" />
+    <Project Path="tests/PharmaERP.Store.Tests/PharmaERP.Store.Tests.csproj" />
+  </Folder>
+</Solution>

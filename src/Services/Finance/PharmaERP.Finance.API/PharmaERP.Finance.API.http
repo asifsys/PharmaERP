@@ -1,0 +1,6 @@
+@PharmaERP.Finance.API_HostAddress = http://localhost:5211
+
+GET {{PharmaERP.Finance.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

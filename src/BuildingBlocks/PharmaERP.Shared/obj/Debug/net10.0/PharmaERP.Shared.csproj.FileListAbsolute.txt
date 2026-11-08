@@ -1,0 +1,12 @@
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\bin\Debug\net10.0\PharmaERP.Shared.deps.json
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\bin\Debug\net10.0\PharmaERP.Shared.dll
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\bin\Debug\net10.0\PharmaERP.Shared.pdb
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaERP.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaERP.Shared.AssemblyInfoInputs.cache
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaERP.Shared.AssemblyInfo.cs
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaERP.Shared.csproj.CoreCompileInputs.cache
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaERP.Shared.dll
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\refint\PharmaERP.Shared.dll
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaERP.Shared.pdb
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\ref\PharmaERP.Shared.dll
+C:\Users\MrGenius\Downloads\PharmaERP\src\BuildingBlocks\PharmaERP.Shared\obj\Debug\net10.0\PharmaER.C19E5207.Up2Date

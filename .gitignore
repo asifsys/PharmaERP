@@ -1,0 +1,161 @@
+
+# ==========================================
+# .NET / ASP.NET Core
+# ==========================================
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtifacts/
+publish/
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# Visual Studio generated files
+GeneratedFiles/
+*.generated.cs
+*.g.cs
+*.g.i.cs
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==========================================
+# NuGet
+# ==========================================
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ==========================================
+# ASP.NET Core configuration and secrets
+# ==========================================
+
+# Local configuration overrides
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Secret files
+secrets.json
+*.secrets.json
+.env
+.env.*
+!.env.example
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+
+# ==========================================
+# Logs and diagnostics
+# ==========================================
+
+*.log
+logs/
+Log/
+Logs/
+crashdumps/
+*.dmp
+
+# ==========================================
+# SQL Server / Database files
+# ==========================================
+
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Node.js / JavaScript
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.npm/
+.eslintcache
+.parcel-cache/
+.next/
+dist/
+coverage/
+
+# ==========================================
+# Frontend build files
+# ==========================================
+
+wwwroot/dist/
+wwwroot/build/
+
+# Keep manually maintained static libraries
+# and application assets under wwwroot.
+
+# ==========================================
+# Docker / Containers
+# ==========================================
+
+docker-compose.override.yml
+.docker/
+docker-data/
+volumes/
+
+# ==========================================
+# Azure / Deployment
+# ==========================================
+
+.azure/
+*.publishsettings
+*.azurePubxml
+
+# ==========================================
+# Operating system
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak~
+*.old
+*.swp
+*.orig
+*.rej
+*.cache

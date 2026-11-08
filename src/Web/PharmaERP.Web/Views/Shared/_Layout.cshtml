@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>@ViewData["Title"] - PharmaERP</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet"
+          href="https://cdn.datatables.net/2.3.5/css/dataTables.bootstrap5.min.css" />
+
+    <link rel="stylesheet"
+          href="~/css/site.css"
+          asp-append-version="true" />
+</head>
+
+<body>
+
+<div class="erp-wrapper">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="erp-sidebar">
+
+        <div class="erp-brand">
+            <span class="brand-icon">✚</span>
+            <span>PharmaERP</span>
+        </div>
+
+        <div class="sidebar-section">MAIN MENU</div>
+
+        <nav class="sidebar-menu">
+
+            <a asp-controller="Dashboard"
+               asp-action="Index"
+               class="active">
+                <span>▦</span> Overview
+            </a>
+
+            <div class="sidebar-section">DEPARTMENTS</div>
+
+            <a href="#">Identity</a>
+            <a href="#">Product</a>
+            <a href="#">Procurement</a>
+            <a href="#">Manufacturing</a>
+            <a href="#">Quality Assurance</a>
+            <a href="#">Quality Control</a>
+            <a href="#">Orders</a>
+            <a href="#">Store & Inventory</a>
+            <a href="#">Payments</a>
+            <a href="#">Finance</a>
+            <a href="#">Salary & Payroll</a>
+            <a href="#">Reports</a>
+            <a href="#">Notifications</a>
+
+            <div class="sidebar-section">ADMINISTRATION</div>
+
+            <a href="#">Departments</a>
+            <a href="#">System Settings</a>
+
+        </nav>
+
+        <div class="sidebar-footer">
+            PharmaERP v1.0
+            <small>Enterprise Edition</small>
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="erp-main">
+
+        <header class="erp-header">
+
+            <div>
+                <span class="text-secondary">
+                    Pharmaceutical ERP / Administration
+                </span>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+
+                <button class="btn btn-light position-relative">
+                    Notifications
+                    <span class="badge bg-danger">3</span>
+                </button>
+
+                <div class="dropdown">
+
+                    <button class="btn btn-light dropdown-toggle"
+                            data-bs-toggle="dropdown">
+                        Executive Admin
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                My Profile
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Change Password
+                            </a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                            <a class="dropdown-item text-danger" href="#">
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <section class="erp-content">
+
+            @RenderBody()
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.datatables.net/2.3.5/js/dataTables.min.js"></script>
+
+<script src="https://cdn.datatables.net/2.3.5/js/dataTables.bootstrap5.min.js"></script>
+
+<script src="~/js/dashboard.js"
+        asp-append-version="true"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
